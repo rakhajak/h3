@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#49344b"/><stop offset="1" stop-color="#211c2a"/></linearGradient>
+    <linearGradient id="bag" x2="1" y2="1"><stop stop-color="#f8eee8"/><stop offset=".65" stop-color="#d9c7bd"/><stop offset="1" stop-color="#a89692"/></linearGradient>
+    <linearGradient id="bead" x2="1" y2="1"><stop stop-color="#ffe8f5"/><stop offset=".55" stop-color="#ee9ac8"/><stop offset="1" stop-color="#ba6095"/></linearGradient>
+    <linearGradient id="metal" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#89909a"/><stop offset="1" stop-color="#e3e8ef"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-25%" width="170%" height="170%"><feDropShadow dx="8" dy="14" stdDeviation="11" flood-color="#000" flood-opacity=".42"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="36" fill="url(#bg)"/>
+  <circle cx="105" cy="112" r="68" fill="#ffeafa" opacity=".045"/>
+  <g filter="url(#shadow)">
+    <path d="M104 211c0-25 20-45 45-45h214c25 0 45 20 45 45v191c0 25-20 45-45 45H149c-25 0-45-20-45-45z" fill="url(#bag)" stroke="#f9e9e0" stroke-width="5"/>
+    <path d="M190 168v-27c0-54 31-88 66-88s66 34 66 88v27" fill="none" stroke="#cbb8ad" stroke-width="17" stroke-linecap="round"/>
+    <path d="M191 168v-27c0-54 31-88 65-88" fill="none" stroke="#fff3ec" stroke-width="5" stroke-linecap="round"/>
+    <path d="M147 251h218" stroke="#b9a79e" stroke-width="5"/>
+    <rect x="151" y="245" width="210" height="12" rx="6" fill="#eee0d8"/>
+    <path d="M311 257v35" stroke="url(#metal)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M311 292c-9 15-24 25-24 43v26m24-69c9 15 24 25 24 43v26" fill="none" stroke="#cd78a7" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="311" cy="306" r="15" fill="url(#bead)" stroke="#a84e83" stroke-width="3"/>
+    <circle cx="287" cy="336" r="10" fill="url(#bead)" stroke="#a84e83" stroke-width="3"/>
+    <circle cx="335" cy="336" r="10" fill="url(#bead)" stroke="#a84e83" stroke-width="3"/>
+    <path d="M287 360v31l-14 17m14-17 13 17m35-48v31l-14 17m14-17 14 17" fill="none" stroke="#dc8cb8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M122 275v112" stroke="#fff" stroke-opacity=".4" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
