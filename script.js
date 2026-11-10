@@ -8,6 +8,7 @@ const PRODUCTS = [
   { id: 5,  name: "Kaitan Carabiner",    cat: "Ganci",  price: 2000, stock: 4,  type: "ganci",   image: "images/kaitan-carabiner.jpeg", colors: ["#7ED9B5"], style: "drop", tint: "#7ED9B5" },
   { id: 6,  name: "Keychain Triple Dadu",  cat: "Ganci",  price: 3000, stock: 10, type: "ganci",   image: "images/keychain-triple-dadu.jpeg", colors: ["#FFD93D"], style: "moon", tint: "#FFD93D" },
   { id: 7,  name: "Bag Accessories Handmade",     cat: "Lainnya",  price: 8000, stock: 1,  type: "lainnya",    image: "images/bag-accessories.jpeg", colors: ["#E8407F","#FFD93D"], style: "flower", tint: "#E8407F" }
+  { id: 8,  name: "Gelang Resistor", cat: "Gelang", price: 4000, stock: 1, type: "gelang", image: "images/gelang-resistor.jpeg", colors: ["#E8407F", "#FFD93D", "#7ED9B5"], tint: "#E8407F" },
 ];
 
 /* State & Utility Variables */
