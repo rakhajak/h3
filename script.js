@@ -1,12 +1,12 @@
 /* ====== Data toko (ditambahkan atribut stock) ====== */
 const WA_NUMBER = "6289518035014"; // format: 62 + nomor tanpa 0 di depan
 const PRODUCTS = [
-  { id: 1,  name: "Gelang Couple Korean Style",  cat: "Gelang",  price: 3000, stock: 0, type: "gelang",   image: "images/gelang-couple.jpeg", colors: ["#E8407F","#FFD93D","#7ED9B5","#B9A7FF"], tint: "#B9A7FF" },
+  { id: 1,  name: "Gelang Couple Korean Style",  cat: "Gelang",  price: 3000, stock: 10, type: "gelang",   image: "images/gelang-couple.jpeg", colors: ["#E8407F","#FFD93D","#7ED9B5","#B9A7FF"], tint: "#B9A7FF" },
   { id: 2,  name: "Gelang Handmade",   cat: "Gelang",  price: 8000, stock: 1,  type: "gelang",   image: "images/gelang-handmade.jpeg", colors: ["#FFFFFF","#EFE6D8","#D9CBB5"],          tint: "#FFD93D" },
-  { id: 3,  name: "Cincin Black Titanium",   cat: "Cincin",  price: 7000, stock: 0,  type: "cincin",   image: "images/cincin-black-titanium.jpeg", colors: ["#4FB8D6","#7ED9B5","#FFFFFF"], pendant: "star", tint: "#7ED9B5" },
-  { id: 4,  name: "Keychain Obeng 3 in 1",   cat: "Ganci",  price: 2000, stock: 0, type: "ganci",   image: "images/keychain-obeng.jpeg", colors: ["#231942","#E8407F","#FFD93D"], pendant: "dot",  tint: "#E8407F" },
+  { id: 3,  name: "Cincin Black Titanium",   cat: "Cincin",  price: 8000, stock: 4,  type: "cincin",   image: "images/cincin-black-titanium.jpeg", colors: ["#4FB8D6","#7ED9B5","#FFFFFF"], pendant: "star", tint: "#7ED9B5" },
+  { id: 4,  name: "Keychain Obeng 3 in 1",   cat: "Ganci",  price: 3000, stock: 8, type: "ganci",   image: "images/keychain-obeng.jpeg", colors: ["#231942","#E8407F","#FFD93D"], pendant: "dot",  tint: "#E8407F" },
   { id: 5,  name: "Kaitan Carabiner",    cat: "Ganci",  price: 2000, stock: 4,  type: "ganci",   image: "images/kaitan-carabiner.jpeg", colors: ["#7ED9B5"], style: "drop", tint: "#7ED9B5" },
-  { id: 6,  name: "Keychain Triple Dadu",  cat: "Ganci",  price: 2000, stock: 0, type: "ganci",   image: "images/keychain-triple-dadu.jpeg", colors: ["#FFD93D"], style: "moon", tint: "#FFD93D" },
+  { id: 6,  name: "Keychain Triple Dadu",  cat: "Ganci",  price: 3000, stock: 10, type: "ganci",   image: "images/keychain-triple-dadu.jpeg", colors: ["#FFD93D"], style: "moon", tint: "#FFD93D" },
   { id: 7,  name: "Bag Accessories Handmade",     cat: "Lainnya",  price: 8000, stock: 1,  type: "lainnya",    image: "images/bag-accessories.jpeg", colors: ["#E8407F","#FFD93D"], style: "flower", tint: "#E8407F" }
 ];
 
